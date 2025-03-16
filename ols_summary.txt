@@ -1,0 +1,46 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    gmv   R-squared:                       0.915
+Model:                            OLS   Adj. R-squared:                  0.830
+Method:                 Least Squares   F-statistic:                     10.79
+Date:                Fri, 07 Mar 2025   Prob (F-statistic):           8.64e-07
+Time:                        20:16:23   Log-Likelihood:                -574.41
+No. Observations:                  41   AIC:                             1191.
+Df Residuals:                      20   BIC:                             1227.
+Df Model:                          20                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       2.14e+09    1.2e+09      1.790      0.089   -3.54e+08    4.63e+09
+Year                       -1.07e+06   5.92e+05     -1.805      0.086   -2.31e+06    1.66e+05
+adStock_TV                 9.484e+04   3.42e+05      0.277      0.785   -6.19e+05    8.09e+05
+adStock_Digital            6.343e+05   9.76e+05      0.650      0.523    -1.4e+06    2.67e+06
+adStock_Content Marketing   -2.4e+06   2.16e+06     -1.113      0.279    -6.9e+06     2.1e+06
+adStock_Online marketing  -3.529e+05    7.5e+05     -0.471      0.643   -1.92e+06    1.21e+06
+adStock_ Affiliates        1.289e+06   2.27e+06      0.568      0.577   -3.45e+06    6.03e+06
+adStock_SEM                 7.32e+04   4.07e+05      0.180      0.859   -7.77e+05    9.23e+05
+adStock_Radio              1.294e+06   5.61e+05      2.308      0.032    1.24e+05    2.46e+06
+sla                        4.533e+05   1.45e+05      3.127      0.005    1.51e+05    7.56e+05
+product_procurement_sla    1.505e+06   8.14e+05      1.849      0.079   -1.93e+05     3.2e+06
+discount                   1.704e+07   3.45e+06      4.933      0.000    9.83e+06    2.42e+07
+is_holiday                  1.84e+05   2.07e+05      0.891      0.384   -2.47e+05    6.15e+05
+total_special_sale_days   -1.769e+05   1.85e+05     -0.954      0.351   -5.64e+05     2.1e+05
+is_special_sale_day        6.009e+05   5.14e+05      1.170      0.256   -4.71e+05    1.67e+06
+total_pay_days            -2.966e+04   1.58e+05     -0.188      0.853   -3.59e+05       3e+05
+CameraMicrophone          -6.649e+04   1.31e+05     -0.509      0.617   -3.39e+05    2.06e+05
+FlashShoeAdapter           7.217e+05   4.59e+05      1.572      0.132   -2.36e+05    1.68e+06
+ReflectorUmbrella         -2.616e+05   3.27e+05     -0.801      0.432   -9.43e+05     4.2e+05
+Softbox                   -2.294e+05   1.53e+05     -1.501      0.149   -5.48e+05    8.93e+04
+Telescope                  5.518e+04   1.14e+04      4.859      0.000    3.15e+04    7.89e+04
+==============================================================================
+Omnibus:                        1.242   Durbin-Watson:                   2.099
+Prob(Omnibus):                  0.537   Jarque-Bera (JB):                0.534
+Skew:                           0.235   Prob(JB):                        0.766
+Kurtosis:                       3.304   Cond. No.                     3.67e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.67e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
